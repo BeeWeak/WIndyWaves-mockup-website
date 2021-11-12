@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dancing+Script:wght@500&display=swap');
+
+button{
+    padding: 9px 20px;
+    background-color: #C0EBE8;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    border: none;
+    border-radius: 50px;
+    color: black;
+}
+
+button:hover{
+    background-color: #ecf9f8;
+}
+
+.hero-banner{
+    text-align: center;
+    width: 100%;
+    height: 600px;
+    padding: 140px;
+    background: url("/assets/images/image.png") no-repeat;
+    background-size: cover;
+}
+
+.flex-column{
+    flex-direction: column!important;
+}
+
+.hero-text{
+    font-family: 'Bebas Neue';
+    font-size: xx-large;
+    color: #C0EBE8;
+}
+
+.hero-link{
+    color: #C0EBE8;
+}
+
+.hero-link:hover{
+    color: #ecf9f8;
+}
+
+
+.hero-link:focus{
+    color: #ecf9f8;
+}
+
+.btn-link{
+    color: black;
+}
+
+.btn-link:hover{
+    color: black
+
+}
+
+
+.btn-link:focus{
+    color: black;
+}
+
+.blank-space{
+    height: 50px;
+}
+
+.row{
+    text-align: center;
+}
+
+/* common tablet portrait */
+@media (min-width: 768px) {
+    .hero-banner{ max-height: 800px; }
+}
+
+/* common tablet landscape */
+@media (min-width: 1024px) {
+    .hero-banner{ max-height: 900px; }
+}
+
+/* common 15" notebook */
+@media (min-width: 1400px) {
+    .hero-banner{ max-height: 1000px; }
+}
+
+
+img{
+    vertical-align: middle;
+}
+
+
+.img-fluid{
+    max-width: 100%;
+    height:auto;   
+
+}
+
+.profile{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+ 
+
+.login-form{
+    display: block;
+    text-align: center;
+}
+
+
+.input{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
+    width: 300px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="../assets/css/style.css"/>
+</head>
+<body>
+    <nav class="navbar navbar-inverse">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">WindyWaves</a>
+            <!--<button class="nav-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"></button>
+                <span class="visually-hidden"></span>
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">About</a></li>
+                </ul>
+            </div>
+        </div>    
+    </nav>
+    <div class="blank-space"></div>
+    <section class="register-form">
+        <div class="container">
+            <form action="register-inc.php" method="post">
+                <div class="col-auto">
+                    <div class="row">
+                        <h1>WindyWaves</h1>
+                    </div>
+                    <div class="row">
+                        <input class="input form-control form-control-lg" type="text" name="name" placeholder="Full name">
+                    </div>
+                    <div class="row">
+                        <input class="input form-control form-control-lg" type="text" name="email" placeholder="Email">
+                    </div>
+                    <div class="row">
+                        <input class="input form-control form-control-lg" type="text" name="uid" placeholder="Username">
+                    </div>
+                    <div class="row">
+                        <input class="input form-control form-control-lg" type="password" name="password" placeholder="Password">
+                    </div>
+                    <div class="row">
+                        <input class="input form-control form-control-lg" type="password" name="passwordrepeat" placeholder="Confirm password">
+                    </div>
+                    <div class="blank-space"></div>
+                    <button type="submit">Login</button>
+                </div>
+            </div>
+        </form>
+    </section>
+</body>
